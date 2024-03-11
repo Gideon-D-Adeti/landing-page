@@ -210,3 +210,13 @@ body {
     gap: 4px;
     list-style: none;
 }
+
+
+/* Footer section styling */
+#footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
