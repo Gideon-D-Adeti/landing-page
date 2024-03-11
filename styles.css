@@ -160,3 +160,28 @@ body {
 #spices .spices-container .spice p {
     text-align: center;
 }
+
+
+/* Testimonials section styling */
+#testimonials {
+    background-color: #E5E7EB;
+}
+
+#testimonials .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#testimonials .testimonial-container .testimonial {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#testimonials .testimonial-container .author {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: auto;
+}
