@@ -185,3 +185,28 @@ body {
     font-size: 24px;
     margin-left: auto;
 }
+
+
+/* Contact section styling */
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .contact-container {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#contact .contact-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    list-style: none;
+}
