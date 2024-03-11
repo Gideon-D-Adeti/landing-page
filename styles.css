@@ -1,0 +1,44 @@
+/* General styling */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header,
+#spices,
+#testimonials,
+#contact,
+#footer {
+    padding: 32px 160px;
+    overflow: auto;
+}
+
+.btn {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    max-width: fit-content;
+    padding: 8px 16px;
+}
+
+.btn:hover {
+    background-color: #2e6ac9;
+}
