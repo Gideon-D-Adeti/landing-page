@@ -42,3 +42,82 @@ body {
 .btn:hover {
     background-color: #2e6ac9;
 }
+
+
+/* Header section styling */
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.logo-and-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.logo-and-navigation .logo {
+    height: auto;
+    width: 96px;
+}
+
+.logo-and-navigation .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 24px;
+}
+
+.logo-and-navigation .navigation a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.logo-and-navigation .navigation li {
+    transition: transform 0.3s ease;
+}
+
+.logo-and-navigation .navigation li:hover {
+    transform: translateY(4px);
+}
+
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.welcome .welcome-message {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 480px;
+}
+
+.welcome .welcome-message h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.welcome .welcome-message p {
+    color: #E5E7EB;
+}
+
+.welcome .welcome-image {
+    height: 240px;
+    width: 480px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 540px) {
+    .welcome .welcome-image {
+        padding-right: 16px;
+    }
+}
